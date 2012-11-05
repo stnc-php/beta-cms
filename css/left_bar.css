@@ -1,0 +1,268 @@
+
+/*reset css*/
+*, html{}
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section
+{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
+
+article,aside,details,figcaption,figure,dialog,footer,header,hgroup,menu,nav,section{display:block;}
+table{border-collapse:separate;border-spacing:0;}
+caption,th,td{text-align:left;font-weight:400;float:none !important;}table,th,td{vertical-align:middle;}blockquote:before,blockquote:after,q:before,q:after{content:'';}blockquote,q{quotes:"" "";}a img{border:none;}:focus{outline:0;}
+
+
+body{
+	font-family:Tahoma, Verdana, Arial, sans-serif;    
+    font-size: 12px;
+
+	}
+/*------temizlik sýfýrlama stilleri------*/
+.clearfix:after {clear: both; content: "."; display: block; font-size: 0; line-height:0; height: 0; visibility: hidden;}
+.clearfix {display: inline-block;}
+.clear {display:block; float:none; margin:0; padding:0; clear:both; font-size:0; line-height:0; height:0;}
+html[xmlns] .clearfix {display: block;}
+/*------temizlik sýfýrlama stilleri end------*/
+
+
+
+												/*-------------------------------------------*/
+								/*-------------------------------------------------------------------------------*/												
+
+ul{margin:0; list-style:none outside none;}
+a{cursor:pointer; outline:none; text-decoration:none;}							
+hr {width:100%; visibility:hidden; height:0; font-size:0; line-height:0; display:block; float:left;}
+
+.bold{font-weight:bold;}
+.text-left {text-align:left;}
+.text-right {text-align:right;}
+.text-center {text-align:center;}	
+
+
+
+				/*----------renkli linkler-------------*/
+				
+				.a-link-gray {
+					color: #1E1E1E;
+					border: 1px solid #ccc;
+					background: #f7f7f7;
+					background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e1e1e1));
+					background: -moz-linear-gradient(top,  #f7f7f7,  #e1e1e1);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e1e1e1');
+					text-shadow: 0 1px 0 #fff;
+				}
+				.a-link-gray:hover {
+					background: #ececec;
+					background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#ccc));
+					background: -moz-linear-gradient(top,  #f1f1f1,  #ccc);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#cccccc');
+				}
+				.a-link-gray:focus {
+					background: #ddd;
+					background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#f1f1f1));
+					background: -moz-linear-gradient(top,  #ccc,  #f1f1f1);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#f1f1f1');
+				}
+				
+		
+				
+				.a-link-blue {
+					color: #fff;
+					border: 1px solid #0076a3;
+					background: #0095cd;
+					background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+					background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+					text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+				}
+				.a-link-blue:hover {
+					background: #007ead;
+					background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+					background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+				}
+				.a-link-blue:focus {
+					background: #80bed6;
+					background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+					background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+					filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+				}
+				
+				
+				/*----------renkli linkler-------------*/
+				
+				
+
+		
+		
+
+		/*----------kutular için genel border radius-------------*/
+		
+		.box-radius {
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-khtml-border-radius: 4px;
+			border-radius: 4px;	
+			}
+			
+		/*----------kutular için genel border radius end-------------*/
+		
+		
+						
+
+
+
+
+	
+	
+
+/*---------------------------------wrap-left'in içindeki control-user ve control-menu------------------------------------------*/
+	
+.control-user {
+	width:200px;
+	display:block;
+	float:none;
+    background: #1F1F1F;
+    background: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#1F1F1F));
+    background: -moz-linear-gradient(top,  #555555,  #1F1F1F);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#1F1F1F');
+	
+	}
+.control-user li{
+	display:block;
+	color: #FFF;
+	font-size:14px;border-width:0;
+	}
+
+.control-user  .user-name {
+	display:block;
+	font-size:16px;
+	padding: 7px 20px 7px 10px;
+	border: none;
+	}
+
+.control-user  .connect {
+	display:block;
+	font-size:11px;
+	padding: 4px 2px 5px 12px;
+	}	
+
+.control-user a{
+	color:#FFF;
+	display:block;
+	font-size:12px;
+	padding: 7px 20px 10px 10px;
+	border:none;
+	}
+
+
+
+.control-user .logout{
+	display:block;
+	font-weight:bold;
+	font-size:14px;	
+	border-width:0 0 1px 0;
+	color:#F00;
+	}
+
+.control-user .logout:hover{
+	border-width:0 0 1px 0;
+	}
+	
+
+	
+.control-user .ico, .control-menu .ico {
+	border:none;
+	float:left;
+	display:inline-block;
+	margin-right:5px;
+	}
+	
+
+
+	
+
+/*---------------------------------wrap-left'in içindeki control-user ve control-menu end-------------------------------------------*/
+
+
+
+
+.first {
+background-color:#fff; 
+color:#000}
+.second {
+background-color:#F4F4F4; 
+color:#000}
+
+
+.btn_submit {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #666666;
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+.btn_submit:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666666;
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.control-menu {
+	display:block;
+	float:left;
+	width:200px;
+	position:relative;
+	border-bottom:1px #000 solid;
+/* 	border-top:1px #000 solid; */
+	text-align:left;
+	}
+	
+	
+	
+.control-menu .content a {
+    border-width: 0 0 1px;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2;
+    outline: medium none;
+    padding: 4px 5px 6px 12px;
+    position: relative;
+}
+
+.feddle {
+    border-width: 0 0 1px;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2;
+    outline: medium none;
+    padding: 4px 5px 6px 12px;
+    position: relative;
+}
+
+
+.control-menu img {
+    border: medium none;
+}
+
+
+
+
+#navigation a.head {
+    background: url("../images/arrow-down.png") no-repeat scroll 3px 4px;
+
+}
+
+#navigation a.selected {
+    background-image: url("../images/arrow-up.png");
+}
+
+.control-menu h1 {
+	padding: 7px 20px 7px 10px;
+	font-size: 14px;
+	font-weight:normal;
+	
+	width:170px;
+	color:#fff;
+}
+
+/*istati,tik için kullanýyorum ilerde sil  son * /
